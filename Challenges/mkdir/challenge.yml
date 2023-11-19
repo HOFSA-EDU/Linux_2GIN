@@ -3,7 +3,7 @@ name: MKDIR Challenge
 category: MKDIR
 author: LGK
 
-# description: "![de.png](/files/a9dd6a9a1443b2971330b13269579e76/de.png) <br/> <br/><br/> ![gb.png](/files/479086f2fb020226c1dd7eaa964d4aea/gb.png) <br/>O <br/>"
+description: "Description"
 
 value: 30
 type: standard
