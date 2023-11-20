@@ -2,6 +2,6 @@ FROM sspreitzer/shellinabox
 
 WORKDIR /home
 
-RUN echo -e "root:test..123" | chpasswd
+RUN echo -e "shellboxuser:test..123" | chpasswd
 
 EXPOSE 4200
