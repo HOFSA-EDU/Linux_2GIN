@@ -6,4 +6,6 @@ COPY ./files ./root
 
 RUN echo -e "root:test..123" | chpasswd
 
+RUN cd /home/root
+
 EXPOSE 4200
