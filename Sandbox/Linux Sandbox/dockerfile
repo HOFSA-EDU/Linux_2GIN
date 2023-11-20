@@ -2,6 +2,4 @@ FROM sspreitzer/shellinabox
 
 WORKDIR /home
 
-RUN echo -e "guest:test..123" | chpasswd
-
 EXPOSE 4200
