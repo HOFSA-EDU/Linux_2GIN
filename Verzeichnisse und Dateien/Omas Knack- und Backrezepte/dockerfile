@@ -1,7 +1,9 @@
 FROM gerco/shellinabox-alpine
 
 WORKDIR /home
-COPY ./files ./shellboxuser
+
+COPY ./files ./root
+
 RUN echo -e "root:test..123" | chpasswd
-WORKDIR /home/shellboxuser
+
 EXPOSE 4200
