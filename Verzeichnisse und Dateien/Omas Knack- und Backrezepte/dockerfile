@@ -2,7 +2,7 @@ FROM hackinglab/alpine-base:3.2
 
 ENV HL_USER_USERNAME=root
 ENV HL_USER_PASSWORD=compass
-ENV HL_ROOT_PASSWORD=dQ0edEdD6dWZMJj
+ENV HL_ROOT_PASSWORD=test..123
 
 # Add the files
 
