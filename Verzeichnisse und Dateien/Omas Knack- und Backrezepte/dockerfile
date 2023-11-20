@@ -4,8 +4,8 @@ WORKDIR /home
 
 COPY ./files ./root
 
-RUN echo -e "root:test..123" | chpasswd
+RUN sudo usermod -a -G sudo shellboxuser
 
-RUN cd /home/root
+RUN echo -e "shellboxuser:test..123" | chpasswd
 
 EXPOSE 4200
