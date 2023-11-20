@@ -61,7 +61,7 @@ state: visible
 # Accepts strings or dictionaries of CTFd API data
 flags:
     - type: static
-      content: "flag{test-static}"
+      content: "stop"
       data: case_insensitive
     # A regex case insensitive flag
 #    - {
