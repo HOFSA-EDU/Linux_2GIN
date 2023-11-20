@@ -3,7 +3,7 @@ name: Sandbox
 category: Sandbox
 author: LGK
 
-description: "Die Sandbox dient dir als Testumgebung um verschiedene Linux-Befehle plattformübergreifend zu testen. <br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: test..123"
+description: "Die Sandbox dient dir als Testumgebung um verschiedene Linux-Befehle plattformübergreifend zu testen. <br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser"
 
 value: 0
 type: docker
