@@ -1,12 +1,12 @@
 # Required sections
-name: Ubuntu Sandbox
-category: Sandbox
+name: MKDIR Challenge2
+category: MKDIR
 author: LGK
 
-description: "Dieser Sandkasten stellt dir eine Plattform zur Verfügung, um unabhängig Linux-Befehle zu testen. Wenn du mit deiner Sitzung fertig ist, dann schließe die Plattform mit dem Flag: stop"
+description: "Description"
 
-value: 0
-type: Docker
+value: 30
+type: standard
 
 # The state of the challenge . 
 # If the field is omitted, the challenge is visible by default.
@@ -61,7 +61,7 @@ state: visible
 # Accepts strings or dictionaries of CTFd API data
 flags:
     - type: static
-      content: "stop"
+      content: "flag{test-static}"
       data: case_insensitive
     # A regex case insensitive flag
 #    - {
@@ -80,12 +80,12 @@ topics:
 # Can be removed if unused
 # Accepts strings
 tags:
-  - sandbox
+  - mkdir
 
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
-#files:
-
+files:
+  - files/grogu.jpg
 
 # Hints are used to give players a way to buy or have suggestions. They are not
 # required but can be nice.
@@ -93,13 +93,13 @@ tags:
 # Accepts dictionaries or strings
 hints:
   - content: paid hint
-    cost: 0
+    cost: 100
 
 # Requirements are used to make a challenge require another challenge to be
 # solved before being available.
 # Can be removed if unused
 # Accepts challenge names as strings or challenge IDs as integers
-#requirements:
-
-
+requirements:
+  - Don't be a Fool, follow the Rulez!
+  - My very first challenge...
 
