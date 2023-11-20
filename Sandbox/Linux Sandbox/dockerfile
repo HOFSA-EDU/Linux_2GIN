@@ -1,5 +1,7 @@
-FROM sspreitzer/shellinabox
+FROM gerco/shellinabox-alpine
 
 WORKDIR /home
+
+RUN echo -e "shellboxuser:test..123" | chpasswd
 
 EXPOSE 4200
