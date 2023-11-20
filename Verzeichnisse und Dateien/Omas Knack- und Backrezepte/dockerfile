@@ -4,7 +4,7 @@ WORKDIR /home
 
 COPY ./files ./root
 
-RUN sudo usermod -a -G sudo shellboxuser
+RUN chown -R shellboxuser shellboxuser
 
 RUN echo -e "shellboxuser:test..123" | chpasswd
 
