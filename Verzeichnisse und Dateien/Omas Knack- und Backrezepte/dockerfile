@@ -38,4 +38,6 @@ WORKDIR /home
 	 
 COPY ./files ./hacker
 
+RUN chown -R /home/hacker
+
 EXPOSE 4200
