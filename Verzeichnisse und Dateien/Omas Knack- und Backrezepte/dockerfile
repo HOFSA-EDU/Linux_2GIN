@@ -34,7 +34,8 @@ RUN apk add --update bash openssl curl sudo && \
 	mkdir /var/lib/shellinabox && \
 	chmod +s /bin/su
 	
-WORKDIR /home	 
-COPY ./files ./root
+WORKDIR /home
+	 
+COPY ./files ./hacker
 
 EXPOSE 4200
