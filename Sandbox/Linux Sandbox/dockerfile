@@ -1,4 +1,4 @@
-FROM gerco/shellinabox-alpine
+FROM sspreitzer/shellinabox
 
 WORKDIR /home
 
