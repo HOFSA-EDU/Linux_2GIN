@@ -34,10 +34,18 @@ RUN apk add --update bash openssl curl sudo && \
 	mkdir /var/lib/shellinabox && \
 	chmod +s /bin/su
 	
-WORKDIR /home
-	 
-COPY ./files ./hacker
+WORKDIR /home/hacker
 
-RUN chown -R hacker /home/hacker
+RUN mkdir -p Dessert/Kekse Dessert/Kuchen Dessert/Torten Dessert/Waffeln
+
+RUN touch Dessert/Kekse/Mandelkekse.txt
+RUN touch Dessert/Kuchen/Marmorkuchen.txt
+RUN touch Dessert/Torten/Sahnetorte.txt
+RUN touch Dessert/Waffeln/Honigwaffeln.txt
+RUN touch Dessert/Waffeln/Zuckerwaffeln.txt
+	 
+#COPY ./files ./hacker
+
+#RUN chown -R hacker /home/hacker
 
 EXPOSE 4200
