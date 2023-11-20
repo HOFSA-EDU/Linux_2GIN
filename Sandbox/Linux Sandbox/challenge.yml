@@ -5,7 +5,7 @@ author: LGK
 
 description: "Dieser Sandkasten stellt dir eine Plattform zur Verfügung, um unabhängig Linux-Befehle zu testen. Wenn du mit deiner Sitzung fertig ist, dann schließe die Plattform mit dem Flag: stop"
 
-value: 30
+value: 0
 type: Docker
 
 # The state of the challenge . 
