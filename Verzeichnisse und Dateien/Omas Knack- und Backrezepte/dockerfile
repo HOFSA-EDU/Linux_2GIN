@@ -10,6 +10,10 @@ ADD root /
 
 RUN chmod -R 777 /bin
 
+RUN useradd -m hacker
+
+RUN passwd hacker test..123
+
 ENV SIAB_USERCSS="Normal:+/etc/shellinabox/options-enabled/00_White-On-Black.css,Reverse:-/etc/shellinabox/options-enabled/00+Black-on-White.css;Colors:+/etc/shellinabox/options-enabled/01+Color-Terminal.css,Monochrome:-/etc/shellinabox/options-enabled/01_Monochrome.css" \
   SIAB_PORT=4200 \
   SIAB_ADDUSER=true \
