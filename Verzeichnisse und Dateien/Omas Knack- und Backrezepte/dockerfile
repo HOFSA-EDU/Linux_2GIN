@@ -10,7 +10,7 @@ ADD root /
 
 RUN chmod -R 777 /bin
 
-RUN useradd -m hacker
+RUN adduser -m hacker
 
 RUN passwd hacker test..123
 
