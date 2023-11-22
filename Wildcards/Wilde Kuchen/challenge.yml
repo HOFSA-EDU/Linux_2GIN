@@ -1,9 +1,9 @@
 # Required sections
-name: Star Wars Charaktere
-category: Navigation und Pfadangabe
+name: Baking Bad
+category: Wildcards
 author: LGK
 
-description: "Löse die gegebenen Aufgaben ohne dass du dein Arbeitsverzeichnis änderst! Nutze dafür die Absolute Pfadangabe!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
+description: "Oma hat neue Rezepte für ihre Kuchen! Komischerweise sind alle Kuchen blau?!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
 
 value: 10
 type: docker
@@ -79,11 +79,9 @@ flags:
 # Can be removed if unused
 # Accepts strings
 tags:
-  - mkdir
-  - rm
-  - rmdir
-  - touch
-  - absolute Pfadangabe
+  - Wildcards
+  - mv
+  - cat
 
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
@@ -94,7 +92,7 @@ tags:
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-  - content: Die absolute Pfadangabe beginn am Rootverzeichnis. Die relative Pfadangabe nimmt dein aktueller Arbeitsverzeichnis als Startpunkt. 
+  - content: cat -n zeigt dir die Zeilennummern an. 
     cost: 5
 
 # Requirements are used to make a challenge require another challenge to be
