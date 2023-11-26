@@ -4,6 +4,12 @@ WORKDIR /home
 
 COPY ./files ./shellboxuser
 
+RUN apk update
+
+RUN apk add man man-pages
+
+RUN apk add coreutils
+
 RUN chown -R shellboxuser /home/shellboxuser
 
 RUN echo -e "root:dhasjdhu" | chpasswd

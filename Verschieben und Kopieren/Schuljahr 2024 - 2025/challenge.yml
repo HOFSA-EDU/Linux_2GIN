@@ -91,7 +91,7 @@ tags:
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-  - content: Schau dir den Schalter -p von mkdir und rmdir an! 
+  - content: Schau dir den Schalter -r für den Befehl cp an! 
     cost: 5
 
 # Requirements are used to make a challenge require another challenge to be
