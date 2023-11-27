@@ -101,6 +101,8 @@ hints:
 # solved before being available.
 # Can be removed if unused
 # Accepts challenge names as strings or challenge IDs as integers
-#requirements:
-
+requirements:
+    - Baking Bad
+    - Piratenwahnsinn
+    - Omas Toppings
 
