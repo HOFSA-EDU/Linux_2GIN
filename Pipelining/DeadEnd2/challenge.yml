@@ -92,7 +92,7 @@ tags:
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-  - content: << EOF beendet die Eingabe, wenn EOF eingegeben wird. EOF steht für: End of file.
+  - content: << EOF beendet die Eingabe, wenn EOF eingegeben wird. EOF steht für End of file.
     cost: 5
 
 # Requirements are used to make a challenge require another challenge to be
