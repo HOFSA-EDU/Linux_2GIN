@@ -3,7 +3,7 @@ name: Reverso
 category: Redirections
 author: LGK
 
-description: "Manchmal sieht die Welt rückwerts einfach besser aus!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
+description: "Manchmal sieht die Welt rückwärts einfach besser aus!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das <i><b>gefundene Flag</b></i> ein"
 
 value: 10
 type: docker
