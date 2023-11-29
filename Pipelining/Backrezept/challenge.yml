@@ -3,7 +3,7 @@ name: Backrezept
 category: Redirections
 author: LGK
 
-description: "Manchmal sieht die Welt rückwerts einfach besser aus!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
+description: "Es ist Zeit zu Backen! Verlier das Rezept nur nicht!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
 
 value: 10
 type: docker
