@@ -1,9 +1,9 @@
 # Required sections
-name: Reverso
+name: Dead End
 category: Redirections
 author: LGK
 
-description: "Manchmal sieht die Welt rückwerts einfach besser aus!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
+description: "Man muss wissen, wann es zu Ende ist!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
 
 value: 10
 type: docker
@@ -61,7 +61,7 @@ state: visible
 # Accepts strings or dictionaries of CTFd API data
 flags:
     - type: static
-      content: "Melone"
+      content: "fertig"
       data: case_insensitive
     # A regex case insensitive flag
 #    - {
@@ -92,7 +92,7 @@ tags:
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-  - content: < leitet den stdIn um; > leitet den stdOut um; | verbindet stdOut mit stdIn zweier Befehle! 
+  - content: "<< EOF" beendet die Eingabe, wenn EOF eingegeben wird. EOF steht für: End of file.
     cost: 5
 
 # Requirements are used to make a challenge require another challenge to be
