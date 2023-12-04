@@ -1,6 +1,6 @@
 # Required sections
 name: Car Dealer!
-category: Redirections
+category: Auslesen und Suchen
 author: LGK
 
 description: "Kundendaten müssen gepflegt sein! Doch wieviele Kunden hat der Händler?<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"

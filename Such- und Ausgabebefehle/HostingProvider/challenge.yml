@@ -1,6 +1,6 @@
 # Required sections
 name: Hosting Provider
-category: Redirections
+category: Auslesen und Suchen
 author: LGK
 
 description: "Hier sind alle Kundendaten! Von GDPR habe ich noch nie was gehört!<br> Logge dich mit folgendem Benutzer ein: <br> Benutzername: shellboxuser <br> Passwort: shellboxuser <br> Wenn du die Aufgabe abgeschlossen hast, dann trage das Flag: <i><b>fertig</b></i> ein"
